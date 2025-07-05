@@ -43,7 +43,7 @@
 
     /* Header & Nav */
     header { background: var(--color-primary); color: var(--color-white); padding: 2rem 0; border-bottom: 4px solid var(--color-accent); }
-    .header-main { display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap; }
+    .header-main { display: flex; align-items: center; gap: 1.5rem; }
     .profile-pic { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 4px solid var(--color-accent); }
     header h1 { font-size: 2rem; margin: 0; }
     header .subtitle { font-size: 1rem; font-weight: 300; margin-top: 0.25rem; }
