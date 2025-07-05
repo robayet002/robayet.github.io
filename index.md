@@ -71,10 +71,14 @@
 </head>
 <body>
   <header>
-    <div class="container profile">
-      <img src="image/photo3.jpg" alt="Profile picture of Mohammad Robaitul Islam Bhuiyan" class="profile-pic">
-      <h1>Mohammad Robaitul Islam Bhuiyan</h1>
-      <p class="subtitle">Data Scientist & Lecturer</p>
+    <div class="container">
+      <div class="header-main">
+        <img src="image/photo3.jpg" alt="Profile picture of Mohammad Robaitul Islam Bhuiyan" class="profile-pic">
+        <div>
+          <h1>Mohammad Robaitul Islam Bhuiyan</h1>
+          <p class="subtitle">Data Scientist & Lecturer</p>
+        </div>
+      </div>
       <nav>
         <a href="#about">About</a>
         <a href="#experience">Experience</a>
