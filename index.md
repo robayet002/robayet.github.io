@@ -24,9 +24,11 @@
 
     /* Header & Nav */
     header { background: var(--color-primary); color: var(--color-white); padding: 2rem 0; border-bottom: 4px solid var(--color-accent); }
-    header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
-    header .subtitle { font-size: 1.2rem; font-weight: 300; }
-    nav { margin-top: 1rem; }
+    .header-main { display: flex; align-items: center; gap: 1.5rem; }
+    .profile-pic { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 4px solid var(--color-accent); }
+    header h1 { font-size: 2rem; margin: 0; }
+    header .subtitle { font-size: 1rem; font-weight: 300; margin-top: 0.25rem; }
+    nav { margin-top: 1.5rem; text-align: center; }
     nav a { margin: 0 1rem; font-weight: 500; color: var(--color-white); transition: color 0.3s; }
     nav a:hover { color: var(--color-secondary); }
 
@@ -41,14 +43,13 @@
 
     /* Projects Grid */
     .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px,1fr)); gap:1.5rem; }
-    .projects h3 a { color: var(--color-primary); }
 
     /* Publications */
     .publications .card p a { color: var(--color-accent); }
 
     /* Certificates Grid */
     .cert-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
-    .cert-card img { width: 100%; border-radius: 4px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin-bottom: 0.5rem; }
+    .cert-card img, .cert-card i { display: block; margin: 0 auto 0.5rem; }
     .cert-card h4 { font-weight: 500; text-align: center; }
 
     /* Skills Visualization */
@@ -91,6 +92,7 @@
     </div>
   </header>
 
+  <main class="container">
     <section id="about">
       <h2>About Me</h2>
       <div class="card">
@@ -234,8 +236,7 @@
         </div>
       </div>
     </section>
-  
-   
+
 
     <section id="skills">
       <h2>Skills</h2>
