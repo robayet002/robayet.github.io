@@ -32,6 +32,10 @@
     /* Projects Grid */
     .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
 
+    /* Certificates Grid */
+    .cert-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+    .cert-card img { width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 0.5rem; }
+
     /* Skills & Lists */
     .skills { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.75rem; list-style: none; }
     .skills li { background: #fff; padding: 0.5rem 1rem; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
@@ -51,6 +55,7 @@
         <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
         <a href="#publications">Publications</a>
+        <a href="#certificates">Certificates</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -79,36 +84,44 @@
     <section id="projects">
       <h2>Selected Projects</h2>
       <div class="projects">
-        <!-- (projects as before) -->
+        <!-- Project cards here -->
       </div>
     </section>
 
     <section id="publications">
       <h2>Publications</h2>
-      <div class="card">
-        <h3>A Secured Blockchain Based Integrated Framework for National Identity and Passport</h3>
-        <p><em>BAIUST Academic Journal &middot; 2021</em></p>
-        <p><strong>Abstract:</strong> This system will help simplify the process of validating and issuing National Identity (NID) cards and passports along with preventing unauthorized issuance. ([journal.baiust.ac.bd](https://journal.baiust.ac.bd/wp-content/uploads/2022/08/2.pdf?utm_source=chatgpt.com))</p>
-        <p><a href="https://journal.baiust.ac.bd/wp-content/uploads/2022/08/2.pdf" target="_blank">Read paper</a></p>
-      </div>
-      <div class="card">
-        <h3>Facilitating Hard-to-Defeat Car AI Using Flood-Fill Algorithm</h3>
-        <p><em>IJCCI Springer &middot; 2020</em></p>
-        <p><strong>Abstract:</strong> The most vital element in making a non-playable car AI in racing games is finding the shortest path between two locations (the start and the finish lines) by making an efficient algorithm for the car to follow it. Usually, both the lines are predetermined for each race in most of the popular games. However, there has not been any game where the player gets the option to select those. ([scispace.com](https://scispace.com/papers/facilitating-hard-to-defeat-car-ai-using-flood-fill-5aeujufd4x?utm_source=chatgpt.com))</p>
-        <p><a href="https://link.springer.com/chapter/10.1007/978-981-15-3607-6_43" target="_blank">Read chapter</a></p>
-      </div>
-      <div class="card">
-        <h3>Implementation of Private Blockchain in Smart Card Management System</h3>
-        <p><em>BAIUST Academic Journal &middot; 2020</em></p>
-        <p><strong>Abstract:</strong> Nowadays Blockchain technology is adopted for various services by a good number of global companies. Blockchain technology ensures integrity of ledgers, privacy of transaction and authenticity of transactions without a centralized control actor. In this paper, we are focused on using this technology in citizen identification system of Bangladesh. A Certification Authority ensures that the information which is not genuine and tempered is not added in our proposed decentralized network. ([journal.baiust.ac.bd](https://journal.baiust.ac.bd/implementation-of-private-blockchain-in-smart-card-management-system/?utm_source=chatgpt.com))</p>
-        <p><a href="https://journal.baiust.ac.bd/implementation-of-private-blockchain-in-smart-card-management-system/" target="_blank">Read paper</a></p>
+      <!-- Publication cards here -->
+    </section>
+
+    <section id="certificates">
+      <h2>Certificates</h2>
+      <div class="cert-grid">
+        <div class="cert-card card">
+          <img src="https://drive.google.com/uc?export=view&id=1KC1EIPeWMJfN3F4UBCTVRoUI_jE1bxtJ" alt="Data Analyst with R Certificate">
+          <h4>Data Analyst with R</h4>
+        </div>
+        <div class="cert-card card">
+          <img src="https://drive.google.com/uc?export=view&id=1ooDb65c9Xnxg9hIouJeXzBiZWhOZSIu1" alt="Data Science Certificate Program Certificate">
+          <h4>Data Science Certificate Program</h4>
+        </div>
+        <div class="cert-card card">
+          <img src="https://drive.google.com/uc?export=view&id=113b3olT0elGvkNeEsLwtYSlczPjuGnq-" alt="Business Analysis via Power BI Certificate">
+          <h4>Business Analysis via Power BI</h4>
+        </div>
+        <div class="cert-card card">
+          <img src="https://drive.google.com/uc?export=view&id=1nkWpTYx8q-QAUd10aIOFJ2csNBLlL1kK" alt="Python for Data Science and AI Certificate">
+          <h4>Python for Data Science and AI</h4>
+        </div>
+        <div class="cert-card card">
+          <img src="https://drive.google.com/uc?export=view&id=1L-arX47ZbUmJYsX_RS61A5ER9jaNuNO0" alt="Excel Power Tools for Data Analysis Certificate">
+          <h4>Excel Power Tools for Data Analysis</h4>
+        </div>
       </div>
     </section>
 
     <section id="skills">
-      <h2>Skills & Certificates</h2>
+      <h2>Skills</h2>
       <div class="card">
-        <h4>Technical Skills</h4>
         <ul class="skills">
           <li>Python</li>
           <li>R</li>
@@ -123,14 +136,6 @@
           <li>MS Access</li>
           <li>Linux</li>
           <li>Windows</li>
-        </ul>
-        <h4>Certificates</h4>
-        <ul>
-          <li>Data Analyst with R</li>
-          <li>Data Science Certificate Program</li>
-          <li>Business Analysis via Power BI</li>
-          <li>Python for Data Science and AI</li>
-          <li>Excel Power Tools for Data Analysis</li>
         </ul>
       </div>
     </section>
