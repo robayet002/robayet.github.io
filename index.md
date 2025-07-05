@@ -71,22 +71,8 @@
 </head>
 <body>
   <header>
-    <div class="container">
-      <h1>Mohammad Robaitul Islam Bhuiyan</h1>
-      <p class="subtitle">Data Scientist & Lecturer</p>
-      <nav>
-        <a href="#about">About</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#publications">Publications</a>
-        <a href="#certificates">Certificates</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <div class="container">
+    <div class="container profile">
+      <img src="images/profile.jpg" alt="Profile picture of Mohammad Robaitul Islam Bhuiyan" class="profile-pic">
       <h1>Mohammad Robaitul Islam Bhuiyan</h1>
       <p class="subtitle">Data Scientist & Lecturer</p>
       <nav>
