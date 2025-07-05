@@ -83,14 +83,86 @@
 
     <section id="projects">
       <h2>Selected Projects</h2>
-      <div class="projects">
-        <!-- Project cards here -->
-      </div>
+  <div class="projects">
+    <div class="card">
+      <h3>
+        <a href="https://github.com/robayet002/Predictive-Analytics-for-Hotel-Booking-Patterns" target="_blank">
+          Predictive Analytics for Hotel Booking Patterns
+        </a>
+      </h3>
+      <p>Explanatory Data Analysis, cleaning, and visualization using Python.</p>
+    </div>
+    <div class="card">
+      <h3>
+        <a href="https://github.com/robayet002/made-robayet" target="_blank">
+          Analyzing Patterns and Outcomes of Crimes and Arrests in Urban Areas of Los Angeles in USA
+        </a>
+      </h3>
+      <p>Data exploration, pipeline development, preprocessing, and visualization using Python.</p>
+    </div>
+    <div class="card">
+      <h3>
+        <a href="https://github.com/robayet002/Enhancing-Sales-Strategies-with-Power-BI-A-Visual-Analytics-Approach" target="_blank">
+          Enhancing Sales Strategies with Power BI: A Visual Analytics Approach
+        </a>
+      </h3>
+      <p>Interactive dashboard creation and visual analytics using Power BI.</p>
+    </div>
+    <div class="card">
+      <h3>
+        <a href="https://github.com/robayet002/Improving-Breast-Cancer-Diagnosis-Accuracy-Using-SVM-and-GridSearch" target="_blank">
+          Improving Breast Cancer Diagnosis Accuracy Using SVM and GridSearch
+        </a>
+      </h3>
+      <p>Machine learning model tuning with SVM, feature scaling, and GridSearch in Python.</p>
+    </div>
+    <div class="card">
+      <h3>
+        <a href="https://github.com/robayet002/Credit-Risk-Prediction-using-supervised-machine-learning.git" target="_blank">
+          Credit Risk Prediction using Supervised ML
+        </a>
+      </h3>
+      <p>Logistic Regression & Random Forest classifier implementation with confusion matrix analysis in Python.</p>
+    </div>
+    <div class="card">
+      <h3>
+        <a href="https://github.com/robayet002/From-Raw-Data-to-Sales-Insights-A-Comprehensive-Python-Analysis" target="_blank">
+          From Raw Data to Sales Insights: A Comprehensive Python Analysis
+        </a>
+      </h3>
+      <p>End-to-end EDA including data cleaning and visualization using Python.</p>
+    </div>
+    <div class="card">
+      <h3>
+        <a href="https://github.com/robayet002/Excel-Based-Interactive-Dashboard-for-Annual-Sales-Report" target="_blank">
+          Excel-Based Interactive Dashboard for Annual Sales Report
+        </a>
+      </h3>
+      <p>Interactive Excel dashboard design for annual sales reporting and visualization.</p>
+    </div>
+  </div>
     </section>
 
     <section id="publications">
       <h2>Publications</h2>
-      <!-- Publication cards here -->
+      <div class="card">
+        <h3>A Secured Blockchain Based Integrated Framework for National Identity and Passport</h3>
+        <p><em>BAIUST Academic Journal &middot; 2021</em></p>
+        <p><strong>Abstract:</strong> This system will help simplify the process of validating and issuing National Identity (NID) cards and passports along with preventing unauthorized issuance.</p>
+        <p><a href="https://journal.baiust.ac.bd/wp-content/uploads/2022/08/2.pdf" target="_blank">Read paper</a></p>
+      </div>
+      <div class="card">
+        <h3>Facilitating Hard-to-Defeat Car AI Using Flood-Fill Algorithm</h3>
+        <p><em>IJCCI Springer &middot; 2020</em></p>
+        <p><strong>Abstract:</strong> The most vital element in making a non-playable car AI in racing games is finding the shortest path between two locations (the start and the finish lines) by making an efficient algorithm for the car to follow it. Usually, both the lines are predetermined for each race in most of the popular games. However, there has not been any game where the player gets the option to select those.</p>
+        <p><a href="https://link.springer.com/chapter/10.1007/978-981-15-3607-6_43" target="_blank">Read chapter</a></p>
+      </div>
+      <div class="card">
+        <h3>Implementation of Private Blockchain in Smart Card Management System</h3>
+        <p><em>BAIUST Academic Journal &middot; 2020</em></p>
+        <p><strong>Abstract:</strong> Nowadays Blockchain technology is adopted for various services by a good number of global companies. Blockchain technology ensures integrity of ledgers, privacy of transaction and authenticity of transactions without a centralized control actor. In this paper, we are focused on using this technology in citizen identification system of Bangladesh. A Certification Authority ensures that the information which is not genuine and tempered is not added in our proposed decentralized network.</p>
+        <p><a href="https://journal.baiust.ac.bd/implementation-of-private-blockchain-in-smart-card-management-system/" target="_blank">Read paper</a></p>
+      </div>
     </section>
 
     <section id="certificates">
@@ -121,36 +193,59 @@
 
     <section id="skills">
       <h2>Skills</h2>
-      <div class="card">
-        <ul class="skills">
-          <li>Python</li>
-          <li>R</li>
-          <li>C++</li>
-          <li>Anaconda</li>
-          <li>CodeBlocks</li>
-          <li>Microsoft Visual Studio</li>
-          <li>LaTeX</li>
-          <li>Office 365</li>
-          <li>Power BI</li>
-          <li>MS SQL</li>
-          <li>MS Access</li>
-          <li>Linux</li>
-          <li>Windows</li>
-        </ul>
+      <div class="card skills-chart">
+        <div class="skill">
+          <span>Python</span>
+          <div class="bar"><div class="progress" style="width: 90%;"></div></div>
+        </div>
+        <div class="skill">
+          <span>R</span>
+          <div class="bar"><div class="progress" style="width: 80%;"></div></div>
+        </div>
+        <div class="skill">
+          <span>C++</span>
+          <div class="bar"><div class="progress" style="width: 75%;"></div></div>
+        </div>
+        <div class="skill">
+          <span>Power BI</span>
+          <div class="bar"><div class="progress" style="width: 85%;"></div></div>
+        </div>
+        <div class="skill">
+          <span>MS SQL & MS Access</span>
+          <div class="bar"><div class="progress" style="width: 70%;"></div></div>
+        </div>
+        <div class="skill">
+          <span>LaTeX & Office 365</span>
+          <div class="bar"><div class="progress" style="width: 80%;"></div></div>
+        </div>
       </div>
     </section>
 
     <section id="contact">
       <h2>Contact</h2>
-      <div class="card">
-        <p><strong>Address:</strong> 91054 Erlangen, Germany</p>
-        <p><strong>Email:</strong> <a href="mailto:robayetcuet11@gmail.com">robayetcuet11@gmail.com</a></p>
-        <p><strong>Phone:</strong> <a href="tel:+4917674126760">+49 176 7412 6760</a></p>
-        <p><strong>GitHub:</strong> <a href="https://github.com/robayet002" target="_blank">github.com/robayet002</a></p>
-        <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/robayet" target="_blank">linkedin.com/in/robayet</a></p>
+      <div class="contact-grid">
+        <div class="contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>91054 Erlangen, Germany</span>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:robayetcuet11@gmail.com">robayetcuet11@gmail.com</a>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-phone-alt"></i>
+          <a href="tel:+4917674126760">+49 176 7412 6760</a>
+        </div>
+        <div class="contact-item">
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/robayet002" target="_blank">github.com/robayet002</a>
+        </div>
+        <div class="contact-item">
+          <i class="fab fa-linkedin"></i>
+          <a href="https://linkedin.com/in/robayet" target="_blank">linkedin.com/in/robayet</a>
+        </div>
       </div>
     </section>
-
     <footer>
       &copy; 2025 Mohammad Robaitul Islam Bhuiyan
     </footer>
