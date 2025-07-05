@@ -251,23 +251,38 @@
       <div class="contact-grid">
         <div class="contact-item">
           <i class="fas fa-map-marker-alt"></i>
-          <span>91054 Erlangen, Germany</span>
+          <div>
+            <h4>Location</h4>
+            <p>91054 Erlangen, Germany</p>
+          </div>
         </div>
         <div class="contact-item">
           <i class="fas fa-envelope"></i>
-          <a href="mailto:robayetcuet11@gmail.com">robayetcuet11@gmail.com</a>
+          <div>
+            <h4>Email</h4>
+            <p><a href="mailto:robayetcuet11@gmail.com">robayetcuet11@gmail.com</a></p>
+          </div>
         </div>
         <div class="contact-item">
           <i class="fas fa-phone-alt"></i>
-          <a href="tel:+4917674126760">+49 176 7412 6760</a>
+          <div>
+            <h4>Phone</h4>
+            <p><a href="tel:+4917674126760">+49 176 7412 6760</a></p>
+          </div>
         </div>
         <div class="contact-item">
           <i class="fab fa-github"></i>
-          <a href="https://github.com/robayet002" target="_blank">github.com/robayet002</a>
+          <div>
+            <h4>GitHub</h4>
+            <p><a href="https://github.com/robayet002" target="_blank">robayet002</a></p>
+          </div>
         </div>
         <div class="contact-item">
           <i class="fab fa-linkedin"></i>
-          <a href="https://linkedin.com/in/robayet" target="_blank">linkedin.com/in/robayet</a>
+          <div>
+            <h4>LinkedIn</h4>
+            <p><a href="https://linkedin.com/in/robayet" target="_blank">/robayet</a></p>
+          </div>
         </div>
       </div>
     </section>
