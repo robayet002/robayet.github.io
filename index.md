@@ -4,51 +4,74 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mohammad Robaitul Islam Bhuiyan – Portfolio</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KyZXEAg3QhqLMpG8r+Knujsl5+5hb7U6E1f9D8Lr6+uHrQfI0dNH0zIhzVpVod1Pvj+KcO9Bx48Y8V9W1yP+kw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
+    :root {
+      --color-bg: #f8f9fa;
+      --color-primary: #0d3b66;
+      --color-secondary: #faf0ca;
+      --color-accent: #ee964b;
+      --color-white: #ffffff;
+      --color-gray-light: #e9ecef;
+      --color-text: #343a40;
+    }
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: 'Roboto', sans-serif; background: #f4f4f9; color: #333; line-height: 1.6; }
-    a { color: #0066cc; text-decoration: none; }
+    body { font-family: 'Roboto', sans-serif; background: var(--color-bg); color: var(--color-text); line-height: 1.6; }
+    a { color: var(--color-accent); text-decoration: none; }
     a:hover { text-decoration: underline; }
-
     .container { max-width: 960px; margin: 2rem auto; padding: 0 1rem; }
-    header { text-align: center; margin-bottom: 2rem; }
-    header h1 { font-size: 2.5rem; }
-    header .subtitle { font-size: 1.2rem; color: #555; }
+
+    /* Header & Nav */
+    header { background: var(--color-primary); color: var(--color-white); padding: 2rem 0; border-bottom: 4px solid var(--color-accent); }
+    header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+    header .subtitle { font-size: 1.2rem; font-weight: 300; }
     nav { margin-top: 1rem; }
-    nav a { margin: 0 0.75rem; font-weight: 700; }
+    nav a { margin: 0 1rem; font-weight: 500; color: var(--color-white); transition: color 0.3s; }
+    nav a:hover { color: var(--color-secondary); }
 
+    /* Section Titles */
     section { margin-bottom: 3rem; }
-    section h2 { font-size: 1.8rem; margin-bottom: 1rem; border-bottom: 2px solid #e0e0e0; padding-bottom: 0.5rem; }
+    section h2 { font-size: 1.8rem; margin-bottom: 1rem; position: relative; padding-bottom: 0.5rem; }
+    section h2::after { content: ''; position: absolute; bottom: 0; left: 0; width: 60px; height: 4px; background: var(--color-accent); border-radius: 2px; }
 
-    .card { background: #fff; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); padding: 1.5rem; margin-bottom: 1.5rem; }
+    /* Cards */
+    .card { background: var(--color-white); border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); padding: 1.5rem; margin-bottom: 1.5rem; transition: transform 0.3s; }
+    .card:hover { transform: translateY(-5px); }
 
+    /* Projects Grid */
     .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px,1fr)); gap:1.5rem; }
+    .projects h3 a { color: var(--color-primary); }
+
+    /* Publications */
+    .publications .card p a { color: var(--color-accent); }
 
     /* Certificates Grid */
     .cert-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
-    .cert-card img { width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 0.5rem; }
+    .cert-card img { width: 100%; border-radius: 4px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin-bottom: 0.5rem; }
+    .cert-card h4 { font-weight: 500; text-align: center; }
 
     /* Skills Visualization */
     .skills-chart { display: grid; gap:1rem; }
     .skill { display: flex; flex-direction: column; }
-    .skill span { font-weight: 700; margin-bottom: 0.25rem; }
-    .bar { background: #e0e0e0; border-radius: 4px; overflow: hidden; }
-    .progress { height: 8px; background: #0066cc; }
+    .skill span { font-weight: 500; margin-bottom: 0.25rem; color: var(--color-primary); }
+    .bar { background: var(--color-gray-light); border-radius: 4px; overflow: hidden; }
+    .progress { height: 8px; background: var(--color-accent); }
 
     /* Contact Grid */
     .contact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); gap:1rem; }
-    .contact-item { background:#fff; border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,0.1); padding:1rem; display:flex; align-items:center; }
-    .contact-item i { font-size:1.5rem; margin-right:0.75rem; color:#0066cc; }
+    .contact-item { background: var(--color-white); border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,0.1); padding:1rem; display:flex; align-items:center; transition: background 0.3s; }
+    .contact-item:hover { background: var(--color-secondary); }
+    .contact-item i { font-size:1.5rem; margin-right:0.75rem; color: var(--color-primary); }
+    .contact-item a { color: var(--color-text); }
 
-    footer { text-align: center; font-size: 0.9rem; color: #777; margin-top: 4rem; }
+    /* Footer */
+    footer { text-align: center; font-size: 0.9rem; color: var(--color-text); margin-top: 4rem; padding: 1rem 0; border-top: 1px solid var(--color-gray-light); }
   </style>
 </head>
 <body>
-  <div class="container">
-
-    <header>
+  <header>
+    <div class="container">
       <h1>Mohammad Robaitul Islam Bhuiyan</h1>
       <p class="subtitle">Data Scientist & Lecturer</p>
       <nav>
@@ -60,7 +83,8 @@
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
       </nav>
-    </header>
+    </div>
+  </header>
 
     <section id="about">
       <h2>About Me</h2>
