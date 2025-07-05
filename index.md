@@ -3,9 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Mohammad Robaitul Islam Bhuiyan – Data Scientist & Lecturer. Showcasing professional experience, projects, publications, certificates, and skills.">
   <title>Mohammad Robaitul Islam Bhuiyan – Portfolio</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico">
+
+  <!-- Open Graph / Twitter Card -->
+  <meta property="og:title" content="Mohammad Robaitul Islam Bhuiyan – Data Scientist & Lecturer">
+  <meta property="og:description" content="Explore my portfolio: experience, projects, publications, certificates, and skills.">
+  <meta property="og:image" content="https://robayet002.github.io/image/profile-pic.jpg">
+  <meta property="og:url" content="https://robayet002.github.io/">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Fonts & Icons -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KyZXEAg3QhqLMpG8r+Knujsl5+5hb7U6E1f9D8Lr6+uHrQfI0dNH0zIhzVpVod1Pvj+KcO9Bx48Y8V9W1yP+kw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KyZXEAg3QhqLMpG8r+Knujsl5+5hb7U6E1f9D8Lr6+uHrQfI0dNH0zIhzVpVod1Pvj+KcO9Bx48Y8V9W1yP+kw=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+
+  <!-- Styles -->
   <style>
     :root {
       --color-bg: #f8f9fa;
@@ -24,7 +43,7 @@
 
     /* Header & Nav */
     header { background: var(--color-primary); color: var(--color-white); padding: 2rem 0; border-bottom: 4px solid var(--color-accent); }
-    .header-main { display: flex; align-items: center; gap: 1.5rem; }
+    .header-main { display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap; }
     .profile-pic { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 4px solid var(--color-accent); }
     header h1 { font-size: 2rem; margin: 0; }
     header .subtitle { font-size: 1rem; font-weight: 300; margin-top: 0.25rem; }
@@ -43,9 +62,6 @@
 
     /* Projects Grid */
     .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px,1fr)); gap:1.5rem; }
-
-    /* Publications */
-    .publications .card p a { color: var(--color-accent); }
 
     /* Certificates Grid */
     .cert-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
@@ -74,13 +90,16 @@
   <header>
     <div class="container">
       <div class="header-main">
-        <img src="image/photo3.jpg" alt="Profile picture of Mohammad Robaitul Islam Bhuiyan" class="profile-pic">
+        <img src="image/photo3.jpg"
+             alt="Profile picture of Mohammad Robaitul Islam Bhuiyan"
+             class="profile-pic"
+             loading="lazy">
         <div>
           <h1>Mohammad Robaitul Islam Bhuiyan</h1>
           <p class="subtitle">Data Scientist & Lecturer</p>
         </div>
       </div>
-      <nav>
+      <nav aria-label="Main navigation">
         <a href="#about">About</a>
         <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
@@ -91,7 +110,6 @@
       </nav>
     </div>
   </header>
-
   <main class="container">
     <section id="about">
       <h2>About Me</h2>
