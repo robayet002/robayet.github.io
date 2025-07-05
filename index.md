@@ -194,23 +194,23 @@
       <h2>Certificates</h2>
       <div class="cert-grid">
         <div class="cert-card card">
-          <img src="images/data-analyst-r.jpg" alt="Data Analyst with R Certificate">
+          <img src="image/certificate_data Analyst with R.pdf" alt="Data Analyst with R Certificate">
           <h4>Data Analyst with R</h4>
         </div>
         <div class="cert-card card">
-          <img src="images/data-science-program.jpg" alt="Data Science Certificate Program">
+          <img src="image/Ostad-Data Science 23-C5254.pdf" alt="Data Science Certificate Program">
           <h4>Data Science Certificate Program</h4>
         </div>
         <div class="cert-card card">
-          <img src="images/business-analysis-powerbi.jpg" alt="Business Analysis via Power BI Certificate">
+          <img src="image/Power bi certificate.pdf" alt="Business Analysis via Power BI Certificate">
           <h4>Business Analysis via Power BI</h4>
         </div>
         <div class="cert-card card">
-          <img src="images/python-data-science-ai.jpg" alt="Python for Data Science and AI Certificate">
+          <img src="image/PythonforDataScienceandAI_Badge20220822-46-34qr15.pdf" alt="Python for Data Science and AI Certificate">
           <h4>Python for Data Science and AI</h4>
         </div>
         <div class="cert-card card">
-          <img src="images/excel-power-tools.jpg" alt="Excel Power Tools for Data Analysis Certificate">
+          <img src="image/Excel power tools for data analysis.pdf" alt="Excel Power Tools for Data Analysis Certificate">
           <h4>Excel Power Tools for Data Analysis</h4>
         </div>
       </div>
