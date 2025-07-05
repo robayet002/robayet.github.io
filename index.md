@@ -44,8 +44,8 @@
     /* Header & Nav */
     header { background: var(--color-primary); color: var(--color-white); padding: 2rem 0; border-bottom: 4px solid var(--color-accent); }
     .header-main { display: flex; align-items: center; gap: 1.5rem; }
-    .profile-pic { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 4px solid var(--color-accent); }
-    header h1 { font-size: 2rem; margin: 0; }
+    .profile-pic { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 4px solid var(--color-accent); }
+    header h1 { font-size: 1.5rem; margin: 0; }
     header .subtitle { font-size: 1rem; font-weight: 300; margin-top: 0.25rem; }
     nav { margin-top: 1.5rem; text-align: center; }
     nav a { margin: 0 1rem; font-weight: 500; color: var(--color-white); transition: color 0.3s; }
