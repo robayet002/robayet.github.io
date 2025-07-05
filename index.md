@@ -29,13 +29,12 @@
     /* Cards & Lists */
     .card { background: #fff; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); padding: 1.5rem; margin-bottom: 1.5rem; }
 
-    /* Projects */
+    /* Projects Grid */
     .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
-    .project a { font-weight: 700; }
 
-    /* Skills Grid */
-    .skills { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
-    .skills li { background: #fff; padding: 0.5rem 1rem; border-radius: 4px; }
+    /* Skills & Lists */
+    .skills { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.75rem; list-style: none; }
+    .skills li { background: #fff; padding: 0.5rem 1rem; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
 
     /* Footer */
     footer { text-align: center; font-size: 0.9rem; color: #777; margin-top: 4rem; }
@@ -80,59 +79,50 @@
     <section id="projects">
       <h2>Selected Projects</h2>
       <div class="projects">
-        <div class="card">
-          <h3><a href="https://github.com/robayet002/Predictive-Analytics-for-Hotel-Booking-Patterns" target="_blank">Predictive Analytics for Hotel Booking Patterns</a></h3>
-          <p>Data cleaning, visualization, and exploratory analysis using Python.</p>
-        </div>
-        <div class="card">
-          <h3><a href="#">Crime & Arrests Analysis (Los Angeles)</a></h3>
-          <p>Data pipeline, preprocessing, and visualization of urban crime patterns in LA.</p>
-        </div>
-        <div class="card">
-          <h3><a href="https://github.com/robayet002/Enhancing-Sales-Strategies-with-Power-BI-A-Visual-Analytics-Approach" target="_blank">Sales Strategies with Power BI</a></h3>
-          <p>Interactive dashboard creation using Power BI for enhanced sales insights.</p>
-        </div>
-        <div class="card">
-          <h3><a href="https://github.com/robayet002/Improving-Breast-Cancer-Diagnosis-Accuracy-Using-SVM-and-GridSearch" target="_blank">Breast Cancer Diagnosis with SVM</a></h3>
-          <p>Machine learning model tuning with SVM and GridSearch in Python.</p>
-        </div>
-        <div class="card">
-          <h3><a href="https://github.com/robayet002/Credit-Risk-Prediction-using-supervised-machine-learning.git" target="_blank">Credit Risk Prediction</a></h3>
-          <p>Logistic Regression & Random Forest classifier implementation in Python.</p>
-        </div>
-        <div class="card">
-          <h3><a href="#">Sales Insights Analysis</a></h3>
-          <p>Comprehensive EDA and visualization of sales data using Python.</p>
-        </div>
-        <div class="card">
-          <h3><a href="#">Excel Annual Sales Dashboard</a></h3>
-          <p>Interactive Excel dashboard for annual sales reporting.</p>
-        </div>
+        <!-- (projects as before) -->
       </div>
     </section>
 
     <section id="publications">
       <h2>Publications</h2>
-      <ul class="card">
-        <li><strong>Secured Blockchain Framework for National Identity & Passport</strong> &middot; BAIUST Academic Journal, 2021</li>
-        <li><strong>Hard-to-Defeat Car AI Using Flood-Fill Algorithm</strong> &middot; IJCCI Springer, 2020</li>
-        <li><strong>Private Blockchain in Smart Card Management</strong> &middot; BAIUST Academic Journal, 2020</li>
-      </ul>
+      <div class="card">
+        <h3>A Secured Blockchain Based Integrated Framework for National Identity and Passport</h3>
+        <p><em>BAIUST Academic Journal &middot; 2021</em></p>
+        <p><strong>Abstract:</strong> This system will help simplify the process of validating and issuing National Identity (NID) cards and passports along with preventing unauthorized issuance. ([journal.baiust.ac.bd](https://journal.baiust.ac.bd/wp-content/uploads/2022/08/2.pdf?utm_source=chatgpt.com))</p>
+        <p><a href="https://journal.baiust.ac.bd/wp-content/uploads/2022/08/2.pdf" target="_blank">Read paper</a></p>
+      </div>
+      <div class="card">
+        <h3>Facilitating Hard-to-Defeat Car AI Using Flood-Fill Algorithm</h3>
+        <p><em>IJCCI Springer &middot; 2020</em></p>
+        <p><strong>Abstract:</strong> The most vital element in making a non-playable car AI in racing games is finding the shortest path between two locations (the start and the finish lines) by making an efficient algorithm for the car to follow it. Usually, both the lines are predetermined for each race in most of the popular games. However, there has not been any game where the player gets the option to select those. ([scispace.com](https://scispace.com/papers/facilitating-hard-to-defeat-car-ai-using-flood-fill-5aeujufd4x?utm_source=chatgpt.com))</p>
+        <p><a href="https://link.springer.com/chapter/10.1007/978-981-15-3607-6_43" target="_blank">Read chapter</a></p>
+      </div>
+      <div class="card">
+        <h3>Implementation of Private Blockchain in Smart Card Management System</h3>
+        <p><em>BAIUST Academic Journal &middot; 2020</em></p>
+        <p><strong>Abstract:</strong> Nowadays Blockchain technology is adopted for various services by a good number of global companies. Blockchain technology ensures integrity of ledgers, privacy of transaction and authenticity of transactions without a centralized control actor. In this paper, we are focused on using this technology in citizen identification system of Bangladesh. A Certification Authority ensures that the information which is not genuine and tempered is not added in our proposed decentralized network. ([journal.baiust.ac.bd](https://journal.baiust.ac.bd/implementation-of-private-blockchain-in-smart-card-management-system/?utm_source=chatgpt.com))</p>
+        <p><a href="https://journal.baiust.ac.bd/implementation-of-private-blockchain-in-smart-card-management-system/" target="_blank">Read paper</a></p>
+      </div>
     </section>
 
     <section id="skills">
       <h2>Skills & Certificates</h2>
       <div class="card">
-        <h4>Languages & Tools</h4>
+        <h4>Technical Skills</h4>
         <ul class="skills">
           <li>Python</li>
           <li>R</li>
           <li>C++</li>
+          <li>Anaconda</li>
+          <li>CodeBlocks</li>
+          <li>Microsoft Visual Studio</li>
+          <li>LaTeX</li>
+          <li>Office 365</li>
           <li>Power BI</li>
           <li>MS SQL</li>
-          <li>LaTeX</li>
-          <li>Git & GitHub</li>
-          <li>Linux & Windows</li>
+          <li>MS Access</li>
+          <li>Linux</li>
+          <li>Windows</li>
         </ul>
         <h4>Certificates</h4>
         <ul>
@@ -148,10 +138,11 @@
     <section id="contact">
       <h2>Contact</h2>
       <div class="card">
-        <p>Email: <a href="mailto:robayetcuet11@gmail.com">robayetcuet11@gmail.com</a></p>
-        <p>Phone: <a href="tel:+4917674126760">+49 176 7412 6760</a></p>
-        <p>GitHub: <a href="https://github.com/robayet002" target="_blank">github.com/robayet002</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/robayet" target="_blank">linkedin.com/in/robayet</a></p>
+        <p><strong>Address:</strong> 91054 Erlangen, Germany</p>
+        <p><strong>Email:</strong> <a href="mailto:robayetcuet11@gmail.com">robayetcuet11@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+4917674126760">+49 176 7412 6760</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/robayet002" target="_blank">github.com/robayet002</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/robayet" target="_blank">linkedin.com/in/robayet</a></p>
       </div>
     </section>
 
