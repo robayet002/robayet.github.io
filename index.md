@@ -86,6 +86,21 @@
     </div>
   </header>
 
+  <div class="container">
+      <h1>Mohammad Robaitul Islam Bhuiyan</h1>
+      <p class="subtitle">Data Scientist & Lecturer</p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#publications">Publications</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
     <section id="about">
       <h2>About Me</h2>
       <div class="card">
@@ -189,32 +204,48 @@
         <p><a href="https://journal.baiust.ac.bd/implementation-of-private-blockchain-in-smart-card-management-system/" target="_blank">Read paper</a></p>
       </div>
     </section>
-
    <section id="certificates">
       <h2>Certificates</h2>
       <div class="cert-grid">
         <div class="cert-card card">
-          <img src="image/certificate_data Analyst with R.pdf" alt="Data Analyst with R Certificate">
-          <h4>Data Analyst with R</h4>
+          <i class="fas fa-file-pdf fa-3x"></i>
+          <div>
+            <h4>Data Analyst with R</h4>
+            <p><a href="image/certificate_data Analyst with R.pdf" target="_blank">View PDF Certificate</a></p>
+          </div>
         </div>
         <div class="cert-card card">
-          <img src="image/Ostad-Data Science 23-C5254.pdf" alt="Data Science Certificate Program">
-          <h4>Data Science Certificate Program</h4>
+          <i class="fas fa-file-pdf fa-3x"></i>
+          <div>
+            <h4>Data Science Certificate Program</h4>
+            <p><a href="image/Ostad-Data Science 23-C5254.pdf" target="_blank">View PDF Certificate</a></p>
+          </div>
         </div>
         <div class="cert-card card">
-          <img src="image/Power bi certificate.pdf" alt="Business Analysis via Power BI Certificate">
-          <h4>Business Analysis via Power BI</h4>
+          <i class="fas fa-file-pdf fa-3x"></i>
+          <div>
+            <h4>Business Analysis via Power BI</h4>
+            <p><a href="image/Power bi certificate.pdf" target="_blank">View PDF Certificate</a></p>
+          </div>
         </div>
         <div class="cert-card card">
-          <img src="image/PythonforDataScienceandAI_Badge20220822-46-34qr15.pdf" alt="Python for Data Science and AI Certificate">
-          <h4>Python for Data Science and AI</h4>
+          <i class="fas fa-file-pdf fa-3x"></i>
+          <div>
+            <h4>Python for Data Science and AI</h4>
+            <p><a href="image/PythonforDataScienceandAI_Badge20220822-46-34qr15.pdf" target="_blank">View PDF Certificate</a></p>
+          </div>
         </div>
         <div class="cert-card card">
-          <img src="image/Excel power tools for data analysis.pdf" alt="Excel Power Tools for Data Analysis Certificate">
-          <h4>Excel Power Tools for Data Analysis</h4>
+          <i class="fas fa-file-pdf fa-3x"></i>
+          <div>
+            <h4>Excel Power Tools for Data Analysis</h4>
+            <p><a href="image/Excel power tools for data analysis.pdf" target="_blank">View PDF Certificate</a></p>
+          </div>
         </div>
       </div>
     </section>
+  
+   
 
     <section id="skills">
       <h2>Skills</h2>
